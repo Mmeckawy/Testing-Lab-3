@@ -27,7 +27,7 @@ public class coffeeTest extends TestCase {
         assertEquals(15, c1.coffee_machine(A1.getAmount(), 15));
         assertEquals(38,A1.getMin());
         assertEquals(52,A1.getSec());
-        //expected no coffee because there is no enough money
+        //pass test
     }
     public void testCoffee_machine3() {
         coffee c1 = new coffee();
